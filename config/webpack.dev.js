@@ -6,9 +6,14 @@ module.export = {
 	},
 	output: {
 		path: path.resolve(__dirname, '../dist'),
-		filename: 'bundle.js'
+		filename: '[name].js'
 	},
 	module: {},
 	plugins: [],
-	devServer: {}
+	devServer: {
+		contentBase: path.resolve(__dirname, '../dist'),
+		host: 'localhost',
+		compress: true,
+		port: 8088
+	}
 }
