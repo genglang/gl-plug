@@ -1,4 +1,4 @@
-function sortByTypeCompare() {
+export default function sortByTypeCompare() {
 	let regCn = new RegExp('^[\\u4E00-\\u9FFF]+', 'g');
 	let regEn = new RegExp('^[a-zA-Z]+', 'g');
 	let regNum = new RegExp('^[0-9]+', 'g');

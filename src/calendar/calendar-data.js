@@ -1,4 +1,4 @@
-function CalendarData (date) {
+export function getCalendarData (date) {
 	let pages = new Array()
 	for (var i = 0; i < 6; i++) {
 		pages[i] = new Array();
@@ -139,4 +139,3 @@ function CalendarData (date) {
 	return pages
 }
 
-console.log(CalendarData(new Date()))
