@@ -1,15 +1,18 @@
 const path = require('path')
+const uglify = require('uglifyjs-webpack-plugin') // js压缩
 module.export = {
 	mode: 'development',
 	entry: {
-		main: './src/main.js'
+		main: './src/index.js'
 	},
 	output: {
 		path: path.resolve(__dirname, '../dist'),
 		filename: '[name].js'
 	},
 	module: {},
-	plugins: [],
+	plugins: [
+		new uglify()
+	],
 	devServer: {
 		contentBase: path.resolve(__dirname, '../dist'),
 		host: 'localhost',
