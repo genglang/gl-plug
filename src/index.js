@@ -1,3 +1,3 @@
-import {getCalendarData} from './calendar/calendar-data'
+import {getCalendarData} from './date/calendar/calendar-data'
 
 console.log(getCalendarData(new Date()))
