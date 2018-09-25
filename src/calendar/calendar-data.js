@@ -6,7 +6,6 @@ export function getCalendarData (date) {
 			pages[i][j] = ''
 		}
 	}
-	console.log(pages)
 	let today = {
 		year: date.getFullYear(),
 		month: date.getMonth() + 1,
@@ -134,7 +133,6 @@ export function getCalendarData (date) {
 				}
 			}
 		}
-		console.log('\n')
 	}
 	return pages
 }
