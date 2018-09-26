@@ -6,7 +6,7 @@ import {WEEKS} from '../date-template/date-data'
  * @returns {string}
  * @constructor
  */
-function ChangeByDate (date) {
+export function ChangeByDate (date) {
 	let hour = date.getHours()
 	let min = date.getMinutes()
 	let sec = date.getSeconds()
@@ -28,7 +28,7 @@ function ChangeByDate (date) {
  * @returns {string}
  * @constructor
  */
-function ChangeBySecond (second) {
+export function ChangeBySecond (second) {
 	let hour = Math.floor(second / 3600)
 	let min = Math.floor((second % 3600) / 60)
 	let sec = Math.floor(second % 60)
