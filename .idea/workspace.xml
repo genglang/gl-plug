@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9147aa21-4965-4380-9230-bb1107fd0ee1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sort/sortCompare/sortByTypeCompare.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/date/date-change/date-change.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/date/date-change/date-change.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortCompare/sortByType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/sortCompare/sortByType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +41,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+            <state relative-caret-position="494">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -48,38 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="date-change.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/date/date-change/date-change.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="date-data.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/date/date-template/date-data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="13" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sortByType.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByType.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sortByTypeCompare.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js">
+        <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByTypeCompare.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="297">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -106,6 +81,8 @@
       <find>console</find>
       <find>TEMPERATURE</find>
       <find>WEEKS</find>
+      <find>cons</find>
+      <find>char</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,7 +99,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js" />
         <option value="$PROJECT_DIR$/src/test.html" />
         <option value="$PROJECT_DIR$/config/webpack.dev.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
@@ -130,6 +106,10 @@
         <option value="$PROJECT_DIR$/src/calendar/calendar-data.js" />
         <option value="$PROJECT_DIR$/src/date/date-template/date-data.js" />
         <option value="$PROJECT_DIR$/src/date/date-change/date-change.js" />
+        <option value="$PROJECT_DIR$/src/sortCompare/sortByType.js" />
+        <option value="$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js" />
+        <option value="$PROJECT_DIR$/src/sort/sortCompare/sortByType.js" />
+        <option value="$PROJECT_DIR$/src/sort/sortCompare/sortByTypeCompare.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
@@ -205,26 +185,13 @@
               <item name="gl-plug" type="b2602c69:ProjectViewProjectNode" />
               <item name="gl-plug" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="date" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gl-plug" type="b2602c69:ProjectViewProjectNode" />
               <item name="gl-plug" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="date" type="462c0819:PsiDirectoryNode" />
-              <item name="date-change" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gl-plug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gl-plug" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="date" type="462c0819:PsiDirectoryNode" />
-              <item name="date-template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gl-plug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gl-plug" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
               <item name="sortCompare" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -250,12 +217,13 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebProject\gl-plug\src\date" />
-      <recent name="E:\WebProject\gl-plug\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebProject\gl-plug\dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebProject\gl-plug\src\sort" />
+      <recent name="E:\WebProject\gl-plug\src\date" />
+      <recent name="E:\WebProject\gl-plug\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,12 +258,12 @@
       <workItem from="1537632679658" duration="3147000" />
       <workItem from="1537794869064" duration="3962000" />
       <workItem from="1537882762735" duration="2906000" />
-      <workItem from="1537970154305" duration="421000" />
+      <workItem from="1537970154305" duration="1101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27035000" />
+    <option name="totallyTimeSpent" value="27715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -356,14 +324,14 @@
     <entry file="file://$PROJECT_DIR$/src/date/date-template/date-data.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByType.js">
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByType.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js">
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByTypeCompare.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
@@ -405,14 +373,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByType.js">
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByType.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js">
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByTypeCompare.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
@@ -454,14 +422,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByType.js">
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByType.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js">
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByTypeCompare.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
@@ -581,20 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByType.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sortCompare/sortByTypeCompare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/html-webpack-plugin/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568">
@@ -623,13 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -668,10 +615,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/sortCompare/sortByTypeCompare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
